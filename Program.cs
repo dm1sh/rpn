@@ -121,7 +121,7 @@ namespace calculator
 
       string arrow = "^".PadLeft(prepend.Length + 1);
 
-      return prepend + tokens[pos] + append + '\n' + arrow;
+      return prepend + tokens[pos] + append + Environment.NewLine + arrow;
     }
 
     private object convertOne(int i)
